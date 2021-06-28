@@ -1,8 +1,6 @@
 EXPORT SIGMAPRJ_MAIN()
 BEGIN
 //-Ver0.4.0-
-//选BPM,讀取BPM
-//生命
 LOCAL HP,L,BPM,WA1T;
 SIGMAPRJDRW();//绘制UI/Draw UI//
 10►H;
@@ -45,10 +43,9 @@ END;
 SIGMAPRJDRWA;
 //--------------//
 //IF H>10
-//THEN 10►H;//防止生命上天...
+//THEN 10►H;//
 //END;
 END;
 FREEZE;
 END;
-//变量說明:  H-生命  L-循环
-//自己体会...
+//自己体会!!!

@@ -2,7 +2,7 @@ EXPORT SIGMAPRJ_MAIN()
 BEGIN
 //-Ver0.4.0-
 LOCAL HP,L,BPM,WA1T;
-SIGMAPRJDRW();//绘制UI/Draw UI//
+SIGMAPRJDRW();//绘制UI/Draw UI//很不幸的告诉你们 ui丢了
 10►H;
 3►L;
 L1(100)►BPM;
